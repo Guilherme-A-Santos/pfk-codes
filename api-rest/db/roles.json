@@ -1,0 +1,65 @@
+[
+    {
+        "id": "3",
+        "role": "Construction Foreman",
+        "boss": "Bren McCrorie",
+        "bossId": "7",
+        "wage": "9409"
+    },
+    {
+        "id": "5",
+        "role": "Construction Manager",
+        "boss": "Marius Papierz",
+        "bossId": "5",
+        "wage": "5025"
+    },
+    {
+        "id": "1",
+        "role": "Construction Worker",
+        "boss": "Sylvia Danjoie",
+        "bossId": "4",
+        "wage": "4438"
+    },
+    {
+        "id": "0",
+        "role": "Architect",
+        "boss": "Jorry Twigg",
+        "bossId": "2",
+        "wage": "8310"
+    },
+    {
+        "id": "6",
+        "role": "Construction Manager",
+        "boss": "Osbourn Kopisch",
+        "bossId": "9",
+        "wage": "2431"
+    },
+    {
+        "id": "4",
+        "role": "Electrician",
+        "boss": "Willetta Tookey",
+        "bossId": "1",
+        "wage": "3468"
+    },
+    {
+        "id": "2",
+        "role": "Construction Manager",
+        "boss": "Teador Biesterfeld",
+        "bossId": "9",
+        "wage": "2405"
+    },
+    {
+        "id": "7",
+        "role": "Construction Manager",
+        "boss": "Hewe Speek",
+        "bossId": "0",
+        "wage": "6077"
+    },
+    {
+        "id": "8",
+        "role": "Surveyor",
+        "boss": "Donni McLeish",
+        "bossId": "7",
+        "wage": "6029"
+    }
+]

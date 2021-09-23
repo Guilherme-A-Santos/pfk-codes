@@ -1,0 +1,15 @@
+{
+  "name": "api-not-rest",
+  "version": "1.0.0",
+  "main": "server",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

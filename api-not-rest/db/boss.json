@@ -1,0 +1,72 @@
+[
+    {
+        "id": "0",
+        "phone": "660-437-7720",
+        "address": "07 Lawn Crossing",
+        "email": "btreeby0@weather.com",
+        "wage": "45407"
+    },
+    {
+        "id": "1",
+        "phone": "666-487-9099",
+        "address": "607 Walton Avenue",
+        "email": "lvannozzii1@seattletimes.com",
+        "wage": "04174"
+    },
+    {
+        "id": "3",
+        "phone": "549-763-1533",
+        "address": "245 Butternut Street",
+        "email": "mlabbett2@archive.org",
+        "wage": "40127"
+    },
+    {
+        "id": "2",
+        "phone": "913-684-4690",
+        "address": "44519 Helena Alley",
+        "email": "clailey3@delicious.com",
+        "wage": "89035"
+    },
+    {
+        "id": "6",
+        "phone": "867-492-8727",
+        "address": "10 Banding Parkway",
+        "email": "jfillgate4@gravatar.com",
+        "wage": "63590"
+    },
+    {
+        "id": "7",
+        "phone": "125-511-2663",
+        "address": "465 Surrey Place",
+        "email": "hdavidwitz5@google.co.uk",
+        "wage": "20134"
+    },
+    {
+        "id": "8",
+        "phone": "170-891-0707",
+        "address": "022 Portage Circle",
+        "email": "mtrengove6@si.edu",
+        "wage": "62301"
+    },
+    {
+        "id": "9",
+        "phone": "410-292-1256",
+        "address": "52 Sycamore Way",
+        "email": "wfrancello7@over-blog.com",
+        "wage": "52186"
+    },
+    {
+        "id": "4",
+        "phone": "866-969-0189",
+        "address": "05 Judy Way",
+        "email": "aedleston8@state.gov",
+        "wage": "82217"
+    },
+    {
+        "id": "5",
+        "phone": "660-437-7720",
+        "address": "07 Lawn Crossing",
+        "email": "btreeby0@weather.com",
+        "wage": "45407"
+    }
+]

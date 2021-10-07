@@ -1,19 +1,19 @@
 const { Router } = require('express')
 
-const UserController = require('./controllers/UserController')
+const EmployeeController = require('./controllers/EmployeeController')
 
 const routes = new Router()
 
-app.get('/users', UserController.listUser)
+routes.get('/employee', EmployeeController.listEmployee)
 
-app.get('/users/:id', UserController.getUserById)
+routes.get('/employee/:id', EmployeeController.getEmployeeById)
 
-app.get('/users/:id/role', UserController.getUserRole)
+routes.get('/employee/:id/role', EmployeeController.getEmployeeRole)
 
-app.post('/users', UserController.insertUser)
+routes.post('/employee', EmployeeController.insertEmployee)
 
-app.delete('/users/:id', UserController.deleteUser)
+routes.delete('/employee/:id', EmployeeController.deleteEmployee)
 
-app.put('/users/:id', UserController.updateUser)
+routes.put('/employee/:id', EmployeeController.updateEmployee)
 
 module.exports = routes;

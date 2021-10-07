@@ -1,13 +1,11 @@
 const EmployeeService = require('../services/EmployeeService')
 
-class EmployeeController {
-  constructor() {
-    this.EmployeeService = new EmployeeService();
-  }
+const employeeService = new EmployeeService()
 
+class EmployeeController {
   listEmployee(req, res) {
     try {
-      const employees = this.EmployeeService.listEmployees()
+      const employees = employeeService.listEmployees()
       return res.json(employees).status(200)
     } catch (error) {
       return res.json({
@@ -21,7 +19,7 @@ class EmployeeController {
     try {
       const employeeId = req.params.id
 
-      const employeeRole = this.EmployeeService.employeeRole({ employeeId })
+      const employeeRole = employeeService.employeeRole({ employeeId })
 
       return res.json(employeeRole).status(200)
     } catch (error) {
@@ -33,7 +31,7 @@ class EmployeeController {
     try {
       const employeeId = req.params.id
 
-      const employee = this.EmployeeService.getEmployeeById({ employeeId })
+      const employee = employeeService.getEmployeeById({ employeeId })
 
       return res.json(employee).status(200)
     } catch (error) {
@@ -45,7 +43,7 @@ class EmployeeController {
     try {
       const employee = req.body
 
-      const newEmployee = this.EmployeeService.createEmployee({ employee })
+      const newEmployee = employeeService.createEmployee({ employee })
 
       return res.json(newEmployee).status(201)
     } catch (error) {
@@ -57,7 +55,7 @@ class EmployeeController {
     try {
       const employeeId = req.params.id
 
-      this.EmployeeService.deleteEmployee({ employeeId })
+      employeeService.deleteEmployee({ employeeId })
 
       return res.json().status(204)
     } catch (error) {
@@ -70,7 +68,7 @@ class EmployeeController {
       const employeeId = req.params.id
       const employee = req.body
 
-      const updatedEmployee = this.EmployeeService.updateEmployee({ employeeId, employee })
+      const updatedEmployee = employeeService.updateEmployee({ employeeId, employee })
 
       return res.json(updatedEmployee).status(200)
     } catch (error) {

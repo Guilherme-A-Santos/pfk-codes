@@ -3,6 +3,8 @@ const rolesDB = require('../../db/roles.json')
 
 class EmployeeService {
   listEmployees() {
+
+    console.log(employeeDB)
     return employeeDB
   }
 

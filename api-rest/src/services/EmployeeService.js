@@ -4,7 +4,6 @@ const rolesDB = require('../../db/roles.json')
 class EmployeeService {
   listEmployees() {
 
-    console.log(employeeDB)
     return employeeDB
   }
 
@@ -21,7 +20,7 @@ class EmployeeService {
   }
 
   getEmployeeById({ employeeId }) {
-    const employee = employeeDB.find((e) => e.id === employeeId)
+    const employee = employeeDB.find((e) => e.id == employeeId)
 
     if (!employee) {
       throw new Error('Employee not found')
